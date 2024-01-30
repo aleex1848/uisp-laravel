@@ -1,0 +1,34 @@
+{
+    "name": "aleex1848/uisp-laravel",
+  "version": "1.0.0",
+    "description": "simple package to interact with uisp nms api",
+    "license": "MIT",
+    "require": {
+        "laravel/framework": "^10"
+    },
+  "require-dev": {
+      "orchestra/testbench": "^8.0"
+  },
+    "autoload": {
+        "psr-4": {
+            "Aleex1848\\UispLaravel\\": "src/"
+        }
+    },
+  "extra": {
+      "laravel": {
+          "providers": [
+              "Aleex1848\\UispLaravel\\UispLaravelServiceProvider"
+          ],
+          "aliases": {
+              "UispLaravel": "Aleex1848\\UispLaravel\\Facades\\UispLaravel"
+          }
+      }
+  },
+    "authors": [
+        {
+            "name": "aleex1848",
+      "email": "halycon01@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev"
+}
