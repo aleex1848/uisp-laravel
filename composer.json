@@ -4,7 +4,7 @@
     "description": "simple package to interact with uisp nms api",
     "license": "MIT",
     "require": {
-        "laravel/framework": "^10"
+        "laravel/framework": "^10|^11"
     },
   "require-dev": {
       "orchestra/testbench": "^8.0"
