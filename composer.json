@@ -1,6 +1,6 @@
 {
     "name": "aleex1848/uisp-laravel",
-  "version": "1.0.0",
+  "version": "1.0.2",
     "description": "simple package to interact with uisp nms api",
     "license": "MIT",
     "require": {
